@@ -132,8 +132,8 @@ if len(sys.argv)>1 and sys.argv[1]=="install":
     binary_URL=wget_friendly+repo_URL+"testTemplate_bin;"
     a1_init_sc="https://ubwins.cse.buffalo.edu/cse-489_589/assignment1_init_script.sh && chmod +x assignment1_init_script.sh;"
     a2_init_sc="https://ubwins.cse.buffalo.edu/cse-489_589/pa2/assignment2_init_script.sh && chmod +x assignment2_init_script.sh;"
-    pa1_test_s="-O test.sh https://raw.githubusercontent.com/johnkramorbhz/CSE4589_testlib/master/PA1_test.sh;"
-    pa2_test_s="-O test.sh https://raw.githubusercontent.com/johnkramorbhz/CSE4589_testlib/master/PA2_test.sh;"
+    pa1_test_s="-O test.sh https://raw.githubusercontent.com/johnkramorbhz/CSE4589_testlib/"+branch+"/PA1_test.sh;"
+    pa2_test_s="-O test.sh https://raw.githubusercontent.com/johnkramorbhz/CSE4589_testlib/"+branch+"/PA2_test.sh;"
     if not sys.platform.startswith('linux'):
         print("ERROR: Make sure you are running it in Linux")
         sys.exit(1)
