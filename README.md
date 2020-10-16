@@ -2,19 +2,11 @@
 
 PROVIDED AS IS WITHOUT WARRANTY OR SERVICE. You may fork this project and continue on your own. However, I will not push any more changes unless it is a bugfix. Only work with these projects in these links. [Link1](https://docs.google.com/document/u/1/d/135usaNDMnJ5pEDG-UbspZameDPmOH0DmXLrMVrLVJ88/pub) [Link2](https://docs.google.com/document/u/1/d/19I8-TrLNcfaCGX1L-KSx5xFYEoiFAN3F9o_jQlOgsFM/pub)
 
-### [Click here for usage](https://github.com/johnkramorbhz/Scripts/blob/main/unit_tests/CSE489/usage.md)
+### [Click here for usage](https://github.com/johnkramorbhz/CSE4589_testlib/blob/main/usage.md)
 
 ## Please Note
 
-**If you have the pre-JSON rewrite version(below 2.4.x), you will need to run [this update method](https://github.com/johnkramorbhz/Scripts/tree/main/unit_tests/CSE489#update) TWICE to fully upgrade everything!** After that, run `./test.sh --generate-json-config` to regenerate the profile as variables in shell scripts are deprecated. Otherwise, use the `./test.sh --update` will be enough(introduced in 2.4.0).
-
-The report file also saves a copy of your configuration file at the end of the report for diagnosis purposes. If you plan on sharing the report file, please remove your personal info.
-
-After 2.4.x, the update function will overwrite both `test.sh` files in addition to the python code and its binary. You will need to run the `./test.sh --generate-json-config` after the upgrade is completed.
-
-SHA256 checksum by running `sha256sum testTemplate_bin`:
-
-`5eaa5d7167ada2a8ab78888e71abb4881dc06f53ca282065d1de476db3f8d34f  testTemplate_bin`
+This repo was moved from Scripts repo, once the move is complete the readme file on the old one will reference here instead.
 
 ## Installation
 
